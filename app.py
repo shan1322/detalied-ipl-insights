@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 from graph_helper import split_bar_plot, simple_bar_plot, simple_line
 import os
 
+
 def get_overall_tally(dataframe):
     st.title('Overall Tally ')
     agg_data = dataframe.groupby("winner").agg({"winner": "count"}).rename(columns={"winner": "matches_won"})
@@ -64,6 +65,7 @@ def get_boundary_data(df):
 
 
 def get_player_stats(df, min_matches=0, min_strike_rate=0, min_average=0, max_eco=0):
+    global batting_df, bowling_df
     if max_eco == 0:
         if os.path.exists("tabular_data/agg_batting.parquet"):
             agg_df = pd.read_parquet("tabular_data/agg_batting.parquet")
@@ -85,6 +87,7 @@ def get_player_stats(df, min_matches=0, min_strike_rate=0, min_average=0, max_ec
             agg_df.to_parquet("tabular_data/agg_batting.parquet")
         agg_df = agg_df[(agg_df['matches'] >= min_matches) & (agg_df['strike_rate'] >= min_strike_rate) & (
                 agg_df['average'] >= min_average)]
+        batting_df = agg_df
         st.table(agg_df)
     else:
 
@@ -95,12 +98,18 @@ def get_player_stats(df, min_matches=0, min_strike_rate=0, min_average=0, max_ec
         agg_df = agg_df.sort_values(by=['wickets', 'economy'], ascending=False)
         agg_df.to_parquet("tabular_data/agg_bowling.parquet")
         agg_df['economy'] = agg_df['runs_given'] / agg_df['overs']
+        if os.path.isfile("tabular_data/agg_bowling.parquet"):
+            pass
+        else:
+            agg_df.to_parquet("tabular_data/agg_bowling.parquet")
+
         agg_df = agg_df[(agg_df['matches'] >= min_matches) & (agg_df['economy'] <= max_eco)]
+        bowling_df = agg_df
         st.write(agg_df)
 
 
-def get_hundred_insights(df, strike_rate):
-    df = df[df['hund'] == 1]
+def get_hundred_insights(df, strike_rate, mile_stone):
+    df = df[df[mile_stone] == 1]
     df.loc[df['innings'] == df['who_won'], 'match_won'] = 1
     df.loc[df['innings'] != df['who_won'], 'match_won'] = 0
 
@@ -126,6 +135,66 @@ def get_hundred_insights(df, strike_rate):
     st.plotly_chart(fig, use_container_width=False)
 
 
+def get_batting_details(df, player, batting_df):
+    df = df[df['name'] == player]
+    df['strike_rate'] = (df['runs'] / df['balls_faced']) * 100
+
+    batting_df = batting_df[batting_df['name'] == player]
+    batting_df = batting_df.round(2)
+    overview_dict = {key: value[batting_df.index.tolist()[0]] for key, value in batting_df.to_dict().items()}
+    col1, col2, col3 = st.columns(3)
+    columns = [col1, col2, col3]
+    keys = list(overview_dict.keys())
+    highest_score = df['runs'].max()
+
+    for i in range(0, len(keys), 3):
+        columns[0].metric(keys[i], overview_dict[keys[i]])
+        columns[1].metric(keys[i + 1], overview_dict[keys[i + 1]])
+        columns[2].metric(keys[i + 2], overview_dict[keys[i + 2]])
+    col1.metric("highest score", highest_score)
+    agg_df = df.groupby('year').agg({"runs": "sum"}).reset_index()
+    fig = simple_bar_plot(data=agg_df, x="year", y="runs", text="runs")
+    st.title("Runs year wise")
+    st.plotly_chart(fig, use_container_width=True)
+    df = df.sort_values(by=['balls_faced', "runs"])
+    fig = simple_line(data=df, x="balls_faced", y="runs", title="runs")
+    st.title("Runs vs balls")
+    st.plotly_chart(fig, use_container_width=True)
+    highest_wicket = list(set(list(df.nlargest(5, "runs")['runs'])))
+    best_performances = df[df['runs'].isin(highest_wicket)].sort_values(by=["runs"], ascending=False)
+    best_performances = best_performances[['runs', "balls_faced", "year", "strike_rate"]]
+    best_performances=best_performances.reset_index()
+    del best_performances['index']
+
+    st.table(best_performances)
+
+
+def get_bolwing_details(df, bowling_df, player):
+    df = df[df['name'] == player]
+    bowling_df = bowling_df[bowling_df['name'] == player]
+    bowling_df = bowling_df.round(2)
+    overview_dict = {key: value[bowling_df.index.tolist()[0]] for key, value in bowling_df.to_dict().items()}
+    col1, col2, col3 = st.columns(3)
+    columns = [col1, col2, col3]
+    keys = list(overview_dict.keys())
+    highest_wicket = list(set(list(df.nlargest(5, "wickets")['wickets'])))
+    best_performances = df[df['wickets'].isin(highest_wicket)].sort_values(by=["wickets"], ascending=False)
+    agg_df = df.groupby('year').agg({"wickets": "sum"}).reset_index()
+    fig = simple_bar_plot(data=agg_df, x="year", y="wickets", text="wickets")
+    st.title("Wickets Year Wise")
+    st.plotly_chart(fig, use_container_width=True)
+    for i in range(0, len(keys), 3):
+        columns[0].metric(keys[i], overview_dict[keys[i]])
+        columns[1].metric(keys[i + 1], overview_dict[keys[i + 1]])
+        columns[2].metric(keys[i + 2], overview_dict[keys[i + 2]])
+    st.title("Best Performances")
+
+    best_performances = best_performances[['wickets', "runs_given", "year"]]
+    best_performances=best_performances.reset_index()
+    del best_performances['index']
+    st.table(best_performances)
+
+
 st.sidebar.image("images/ipl_logo.cms")
 option = st.sidebar.selectbox(
     'options',
@@ -148,24 +217,48 @@ elif option == "year wise trends":
         get_boundary_data(df=dataframe)
 elif option in ["player stats", "insights"]:
     player_stat = pd.read_parquet("tabular_data/players_stat.parquet")
+    try:
+        batting_df = pd.read_parquet("tabular_data/agg_batting.parquet")
+    except Exception as e:
+        print(e)
+    try:
+        bowling_df = pd.read_parquet("tabular_data/agg_bowling.parquet")
+    except Exception as e:
+        print(e)
+
     if option == "player stats":
+        player_stat_option = st.sidebar.selectbox(
+            'player stats', ('overview', "detail"))
         st.header("Player Stats")
         which_stat = st.radio(
             "which_stat",
             ("batting", "bowling"))
-        min_matches = st.slider('minimum_mathces', 0, 500, 50)
-        if which_stat == "batting":
-            average_more_than = st.slider('average more than', 0, 100, 20)
-            strike_rate_more_than = st.slider('strike rate more than', 0, 250, 120)
-            get_player_stats(min_matches=min_matches, min_average=average_more_than,
-                             min_strike_rate=strike_rate_more_than,
-                             df=player_stat)
-        elif which_stat == "bowling":
-            economy_less_more_than = st.slider('economy rate less than', 0.0, 12.5, 8.0)
-            get_player_stats(max_eco=economy_less_more_than, df=player_stat, min_matches=min_matches)
+        if player_stat_option == "overview":
+
+            min_matches = st.slider('minimum_mathces', 0, 500, 50)
+            if which_stat == "batting":
+                average_more_than = st.slider('average more than', 0, 100, 20)
+                strike_rate_more_than = st.slider('strike rate more than', 0, 250, 120)
+                get_player_stats(min_matches=min_matches, min_average=average_more_than,
+                                 min_strike_rate=strike_rate_more_than,
+                                 df=player_stat)
+            elif which_stat == "bowling":
+                economy_less_more_than = st.slider('economy rate less than', 0.0, 12.5, 8.0)
+                get_player_stats(max_eco=economy_less_more_than, df=player_stat, min_matches=min_matches)
+        elif player_stat_option == "detail":
+            player_name = st.selectbox("players", ((i) for i in sorted(list(set(player_stat['name'])))))
+            if which_stat == "batting":
+                get_batting_details(df=player_stat, player=player_name, batting_df=batting_df)
+            if which_stat == "bowling":
+                get_bolwing_details(df=player_stat, player=player_name, bowling_df=bowling_df)
+
+
     elif option == "insights":
         st.header("100 insights")
         insight = st.sidebar.selectbox(
             'Year Wise Options', ("hundrerds", "fifties"))
         strike_rate = st.slider('strike rate more than ', 100, 250, 120)
-        get_hundred_insights(player_stat, strike_rate=strike_rate)
+        if insight == "hundrerds":
+            get_hundred_insights(player_stat, strike_rate=strike_rate, mile_stone="hund")
+        else:
+            get_hundred_insights(df=player_stat, strike_rate=strike_rate, mile_stone="fifty")
