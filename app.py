@@ -1,12 +1,10 @@
-import os.path
-
 import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from graph_helper import split_bar_plot, simple_bar_plot, simple_line
-
+import os
 
 def get_overall_tally(dataframe):
     st.title('Overall Tally ')
