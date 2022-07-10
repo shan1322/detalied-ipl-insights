@@ -125,17 +125,30 @@ def get_hundred_insights(df, strike_rate, mile_stone):
     win_percentage_inn2 = mwi2h / len(df_i2)
     hundered_df = pd.DataFrame()
     hundered_df['innings'] = ["innings1", "innings2"]
-    hundered_df['hundreds'] = [len(df_i1), len(df_i2)]
-    hundered_df['win_percentage'] = [win_percentage_inn1 * 100, win_percentage_inn2 * 100]
+    if mile_stone == "fifty":
+        hundered_df['fifties'] = [len(df_i1), len(df_i2)]
+        hundered_df['win_percentage'] = [win_percentage_inn1 * 100, win_percentage_inn2 * 100]
+        fig = simple_bar_plot(data=hundered_df, x="innings", y="fifties",
+                              color_column="fifties")
+        st.header("innings wise Fifties")
+        st.plotly_chart(fig, use_container_width=True)
+        fig = simple_bar_plot(data=hundered_df, x="innings", y="win_percentage",
+                              color_column="win_percentage")
+        st.header("win percentage when  fifties scored in innings 1 vs fifties scored in innings 2")
+        st.plotly_chart(fig, use_container_width=True)
 
-    fig = simple_bar_plot(data=hundered_df, x="innings", y="hundreds",
-                          color_column="hundreds")
-    st.header("innings wise hundred")
-    st.plotly_chart(fig, use_container_width=True)
-    fig = simple_bar_plot(data=hundered_df, x="innings", y="win_percentage",
-                          color_column="win_percentage")
-    st.header("win percentage when  hundred scored in innings 1 vs hundred scored in innings 2")
-    st.plotly_chart(fig, use_container_width=True)
+
+    else:
+        hundered_df['hundreds'] = [len(df_i1), len(df_i2)]
+        hundered_df['win_percentage'] = [win_percentage_inn1 * 100, win_percentage_inn2 * 100]
+        fig = simple_bar_plot(data=hundered_df, x="innings", y="hundreds",
+                              color_column="hundreds")
+        st.header("innings wise hundred")
+        st.plotly_chart(fig, use_container_width=True)
+        fig = simple_bar_plot(data=hundered_df, x="innings", y="win_percentage",
+                              color_column="win_percentage")
+        st.header("win percentage when  hundred scored in innings 1 vs hundred scored in innings 2")
+        st.plotly_chart(fig, use_container_width=True)
 
 
 def get_batting_details(df, player, batting_df):
