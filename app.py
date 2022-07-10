@@ -398,7 +398,7 @@ elif option in ["player stats", "insights"]:
             strike_rate = st.slider('strike rate more than ', 100, 250, 120)
 
             get_hundred_insights(player_stat, strike_rate=strike_rate, mile_stone="hund")
-        elif insight == "fifities":
+        elif insight == "fifties":
             st.header("50 insights")
             strike_rate = st.slider('strike rate more than ', 100, 250, 120)
 
