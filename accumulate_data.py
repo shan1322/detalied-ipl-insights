@@ -6,14 +6,17 @@ import dateutil.parser as parser
 import pandas as pd
 from tqdm import tqdm
 from multiprocessing import Pool
+from json_helper import load_json, dump_file
+import requests
 
 
 class MatchData:
-    def __init__(self, directory_json, tabular_directory):
+    def __init__(self, directory_json_ball_by_ball, tabular_directory, json_directory):
         self.data = ""
-        self.directory = directory_json
+        self.directory = directory_json_ball_by_ball
         self.tabular_directory = tabular_directory
         self.files = os.listdir(self.directory)
+        self.json_directory = json_directory
 
     def get_match_information(self, file_name, mode):
         self.data = load_json(file_name=file_name, directory=self.directory)
@@ -35,13 +38,15 @@ class MatchData:
         player_stats_t1 = {
             i: {"runs": 0, "wickets": 0, "fours": 0, "sixes": 0, "team": bat1, "id": people[i], "out": "dnb",
                 "balls_faced": 0, "runs_given": 0, "deliveries_bowled": 0, "wicket_bowler": "", "sixes_conceded": 0,
-                "four_conceded": 0, "year": year, "innings": "bat1", "who_won": who_won} for
+                "four_conceded": 0, "year": year, "innings": "bat1", "who_won": who_won, "opposition": bat2,
+                "batter_dot": 0, "bowler_dot": 0} for
             i in
             self.data['info']['players'][bat1]}
         player_stats_t2 = {
             i: {"runs": 0, "wickets": 0, "fours": 0, "sixes": 0, "team": bat2, "id": people[i], "out": "dnb",
                 "balls_faced": 0, "runs_given": 0, "deliveries_bowled": 0, "wicket_bowler": "", "sixes_conceded": 0,
-                "four_conceded": 0, "year": year, "innings": "bat2", "who_won": who_won} for
+                "four_conceded": 0, "year": year, "innings": "bat2", "who_won": who_won, "opposition": bat1,
+                "batter_dot": 0, "bowler_dot": 0} for
             i in
             self.data['info']['players'][bat2]}
         extras = {"wides": 0, "noballs": 0, "byes": 0, "legbyes": 0, "penalty": 0}
@@ -154,6 +159,11 @@ class MatchData:
 
         runs = deliveries['runs']['batter']
         runs_given = deliveries['runs']['total']
+        if runs == 0:
+            player_stats[batter]['batter_dot'] = player_stats[batter]["batter_dot"] + 1
+        if runs_given == 0:
+            player_stats_2[bowler]['bowler_dot'] = player_stats_2[bowler]["bowler_dot"] + 1
+
         player_stats_2[bowler]['runs_given'] = player_stats_2[bowler]['runs_given'] + runs_given
         player_stats[batter]['runs'] = player_stats[batter]['runs'] + runs
         if runs == 4:
@@ -212,6 +222,7 @@ class AggregateData(MatchData):
         del matches_record_df['y']
 
         matches_record_df.to_parquet(os.path.join(self.tabular_directory, file_name))
+        return matches_record_df
 
     @staticmethod
     def calulate_overs(balls):
@@ -253,8 +264,40 @@ class AggregateData(MatchData):
 
         mega_df['four_wicket'] = mega_df["wickets"].apply(self.bowling_milestone)
         mega_df.to_parquet(os.path.join(self.tabular_directory, file_name))
+        return mega_df
+
+    def get_player_id_dict(self, ids_map_csv):
+        dicts = [self.get_player_id(file_name=file) for file in tqdm(self.files) if file.endswith(".json")]
+        super_dict = {key: val for d in dicts for key, val in d.items()}
+        # dump_file("player_ids", "json_data", super_dict)
+        df = pd.read_csv(os.path.join(self.directory, ids_map_csv))
+
+        out_dict = {}
+        for ids in tqdm(super_dict.keys()):
+            temp = df[df['identifier'] == ids]
+            cric_info_id = int(temp['key_cricinfo'])
+            try:
+                json_url = "http://core.espnuk.org/v2/sports/cricket/athletes/{0}".format(cric_info_id)
+                response = requests.get(json_url)
+                if response.status_code == 200:
+                    styles = response.json()['styles']
+                    if len(styles) == 2:
+                        batting = styles[0]['description']
+                        bowling = styles[1]['description']
+                    elif len(styles) == 1:
+                        batting = styles[0]['description']
+                        bowling = ""
+                    else:
+                        batting = ""
+                        bowling = ""
+                    out_dict[ids] = {"batting_style": batting, "bowling_style": bowling}
+            except:
+                out_dict[ids] = {"batting_style": "", "bowling_style": ""}
+        dump_file("playing_styles.json", directory="json_data", dict_=out_dict)
 
 
-ad = AggregateData(directory_json="ipl_ball_by_ball", tabular_directory="tabular_data")
+ad = AggregateData(directory_json_ball_by_ball="ipl_ball_by_ball", tabular_directory="tabular_data",
+                   json_directory="json_data")
+# ad.get_player_id_dict(ids_map_csv="people.csv")
 # ad.get_matches_data_overall(file_name="matches_data_agg.parquet")
 ad.get_player_data(file_name="players_stat.parquet")
