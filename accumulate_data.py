@@ -30,7 +30,8 @@ class MatchData:
         else:
             match_id = str(year) + "_" + str(self.data['info']['event']["stage"])
 
-        bat1, bat2, winner, who_won = self.batting_first_second(self.data['info']['toss'], self.data['info']['outcome'])
+        bat1, bat2, winner, who_won = self.batting_first_second(self.data, self.data['info']['toss'],
+                                                                self.data['info']['outcome'])
         if 'player_of_match' in self.data['info'].keys():
             mom = self.data['info']['player_of_match'][0]
         else:
@@ -107,10 +108,11 @@ class MatchData:
             stats_df = stats_df.reset_index().rename(columns={'index': "name"})
             return stats_df
 
-    def batting_first_second(self, toss, outcome):
+    @staticmethod
+    def batting_first_second(data, toss, outcome):
         decision = toss['decision']
         winner = toss['winner']
-        other = list(self.data['info']['teams'])
+        other = list(data['info']['teams'])
         other.remove(winner)
         other = other[0]
 

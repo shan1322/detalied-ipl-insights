@@ -8,5 +8,13 @@ def load_json(file_name, directory):
         f = open(path)
         data = json.load(f)
         return data
-    except:
+    except Exception as e:
+        print(e)
+
         return {}
+
+
+def dump_file(file_name, directory, dict_):
+    path = os.path.join(directory, file_name)
+    with open(path, "w") as outfile:
+        json.dump(dict_, outfile)

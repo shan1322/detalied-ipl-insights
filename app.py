@@ -5,10 +5,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 from graph_helper import split_bar_plot, simple_bar_plot, simple_line
 import os
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 def get_overall_tally(dataframe):
-    st.title('Overall Tally ')
+    st.title('Overall Tally')
     agg_data = dataframe.groupby("winner").agg({"winner": "count"}).rename(columns={"winner": "matches_won"})
     agg_data = agg_data.reset_index()
     agg_data.loc[agg_data['winner'] == '', 'winner'] = "no result"
@@ -128,11 +131,11 @@ def get_hundred_insights(df, strike_rate, mile_stone):
     fig = simple_bar_plot(data=hundered_df, x="innings", y="hundreds",
                           color_column="hundreds")
     st.header("innings wise hundred")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig, use_container_width=True)
     fig = simple_bar_plot(data=hundered_df, x="innings", y="win_percentage",
                           color_column="win_percentage")
     st.header("win percentage when  hundred scored in innings 1 vs hundred scored in innings 2")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig, use_container_width=True)
 
 
 def get_batting_details(df, player, batting_df):
@@ -163,10 +166,120 @@ def get_batting_details(df, player, batting_df):
     highest_wicket = list(set(list(df.nlargest(5, "runs")['runs'])))
     best_performances = df[df['runs'].isin(highest_wicket)].sort_values(by=["runs"], ascending=False)
     best_performances = best_performances[['runs', "balls_faced", "year", "strike_rate"]]
-    best_performances=best_performances.reset_index()
+    best_performances = best_performances.reset_index()
     del best_performances['index']
+    st.title("Best Performances")
 
     st.table(best_performances)
+
+
+def process_batter_query(bowler_style_df, player, player_type):
+    if len(bowler_style_df) == 0:
+        return {"Runs": 0,
+                "Balls": 0,
+                "Dot_ball_percentage": 0,
+                "Strike rate": 0,
+                "Out": 0,
+                "Average": 0}
+
+    if player_type == "batter":
+        out = len((bowler_style_df[bowler_style_df['player_out'] == player]))
+        runs = bowler_style_df['batter_run'].sum()
+        dot_ball = len(bowler_style_df[bowler_style_df['batter_run'] == 0])
+
+
+
+    else:
+        out = len((bowler_style_df[bowler_style_df['player_out'] != ""]))
+        runs = bowler_style_df['total_run'].sum()
+        dot_ball = len(bowler_style_df[bowler_style_df['total_run'] == 0])
+    dot_ball_percentage = round((dot_ball / len(bowler_style_df)) * 100, 2)
+    balls = len(bowler_style_df)
+    strike_rate = round((runs / balls) * 100, 2)
+    overs = (balls // 6) + balls % 6
+    economy_rate = round(runs / overs, 2)
+
+    if out == 0:
+        average = runs
+    else:
+        average = (runs / out).round(2)
+    out = {"Runs": runs,
+           "Balls": balls,
+           "Dot_ball_percentage": dot_ball_percentage,
+           "Strike rate": strike_rate,
+           "Out": out,
+           "Average": average,
+           "overs": overs,
+           "economy_rate": economy_rate}
+    if player_type == "batter":
+        out.pop("economy_rate")
+        out.pop("overs")
+    else:
+        out.pop("Average")
+        out.pop("Strike rate")
+    return out
+
+
+def display_stats(overview_dict):
+    keys = list(overview_dict.keys())
+    col1, col2, col3 = st.columns(3)
+    columns = [col1, col2, col3]
+    for i in range(0, len(keys), 3):
+        columns[0].metric(keys[i], overview_dict[keys[i]])
+        columns[1].metric(keys[i + 1], overview_dict[keys[i + 1]])
+        columns[2].metric(keys[i + 2], overview_dict[keys[i + 2]])
+
+
+def even_more_details_batter(df, player):
+    df = df[df['batter'] == player]
+    styles = list(set(list(df['bowler_style'])))
+    if "no known" in styles:
+        styles.remove("no known")
+    st.title("Record vs Bowler types")
+
+    bowler_types = st.selectbox(
+        'record vs different types of bowlers', (i for i in styles))
+    bowler_style_df = df[(df["bowler_style"] == bowler_types) & (df['extras'] != "wide")]
+    overview_dict = process_batter_query(bowler_style_df, player, player_type="batter")
+    display_stats(overview_dict)
+    st.title("Record in Power Play")
+    power_play_df = df[df['over'].isin([i for i in range(0, 6)])]
+    power_play_dict = process_batter_query(power_play_df, player, player_type="batter")
+    display_stats(power_play_dict)
+    middle_play_df = df[df['over'].isin([i for i in range(6, 15)])]
+    middle_play_dict = process_batter_query(middle_play_df, player, player_type="batter")
+    st.title("Record in Middle Overs")
+    display_stats(middle_play_dict)
+    End_play_df = df[df['over'].isin([i for i in range(15, 20)])]
+    End_play_dict = process_batter_query(End_play_df, player, player_type="batter")
+    st.title("Record in Death Overs")
+    display_stats(End_play_dict)
+
+
+def even_more_bowler_details(df, players):
+    df = df[df['bowler'] == players]
+    styles = list(set(list(df['batter_style'])))
+    if "not know" in styles:
+        styles.remove("not know")
+    st.title("Record vs Batter types")
+
+    batter_types = st.selectbox(
+        'record vs different types of batter', (i for i in styles))
+    batter_style_df = df[(df["batter_style"] == batter_types) & (df['extras'] != "wide")]
+    overview_dict = process_batter_query(batter_style_df, players, player_type="bowler")
+    display_stats(overview_dict)
+    st.title("Record in Power Play")
+    power_play_df = df[df['over'].isin([i for i in range(0, 6)])]
+    power_play_dict = process_batter_query(power_play_df, players, player_type="bowler")
+    display_stats(power_play_dict)
+    middle_play_df = df[df['over'].isin([i for i in range(6, 15)])]
+    middle_play_dict = process_batter_query(middle_play_df, players, player_type="bowler")
+    st.title("Record in Middle Overs")
+    display_stats(middle_play_dict)
+    End_play_df = df[df['over'].isin([i for i in range(15, 20)])]
+    End_play_dict = process_batter_query(End_play_df, players, player_type="bowler")
+    st.title("Record in Death Overs")
+    display_stats(End_play_dict)
 
 
 def get_bolwing_details(df, bowling_df, player):
@@ -187,12 +300,29 @@ def get_bolwing_details(df, bowling_df, player):
         columns[0].metric(keys[i], overview_dict[keys[i]])
         columns[1].metric(keys[i + 1], overview_dict[keys[i + 1]])
         columns[2].metric(keys[i + 2], overview_dict[keys[i + 2]])
-    st.title("Best Performances")
 
     best_performances = best_performances[['wickets', "runs_given", "year"]]
-    best_performances=best_performances.reset_index()
+    best_performances = best_performances.reset_index()
     del best_performances['index']
-    st.table(best_performances)
+    st.title("Best Performances")
+    st.table(best_performances.head(10))
+
+
+def get_player_v_player(df, batter, bowler):
+    df = df[(df['batter'] == batter) & (df['bowler'] == bowler)]
+    if len(df)==0:
+        st.write("Never Faced each other in IPL")
+    else:
+        runs = df['total_run'].sum()
+        dot_ball = len(df[df['total_run'] == 0])
+        dot_ball_percentage = round((dot_ball / len(df)) * 100, 2)
+        balls = len(df)
+        strike_rate = round((runs / balls) * 100, 2)
+        c1, c2 = st.columns(2)
+        c1.metric("runs", runs)
+        c2.metric("balls", balls)
+        c1.metric("strike rate", strike_rate)
+        c2.metric("dot ball percentage", dot_ball)
 
 
 st.sidebar.image("images/ipl_logo.cms")
@@ -225,6 +355,7 @@ elif option in ["player stats", "insights"]:
         bowling_df = pd.read_parquet("tabular_data/agg_bowling.parquet")
     except Exception as e:
         print(e)
+    ball_by_ball = pd.read_parquet("tabular_data/all_ball_by_ball.parquet")
 
     if option == "player stats":
         player_stat_option = st.sidebar.selectbox(
@@ -249,16 +380,35 @@ elif option in ["player stats", "insights"]:
             player_name = st.selectbox("players", ((i) for i in sorted(list(set(player_stat['name'])))))
             if which_stat == "batting":
                 get_batting_details(df=player_stat, player=player_name, batting_df=batting_df)
+                even_more_details_batter(df=ball_by_ball, player=player_name)
             if which_stat == "bowling":
                 get_bolwing_details(df=player_stat, player=player_name, bowling_df=bowling_df)
+                even_more_bowler_details(df=ball_by_ball, players=player_name)
+
+
 
 
     elif option == "insights":
-        st.header("100 insights")
         insight = st.sidebar.selectbox(
-            'Year Wise Options', ("hundrerds", "fifties"))
-        strike_rate = st.slider('strike rate more than ', 100, 250, 120)
+            'Year Wise Options', ("hundrerds", "fifties", "player vs player"))
         if insight == "hundrerds":
+            st.header("100 insights")
+            strike_rate = st.slider('strike rate more than ', 100, 250, 120)
+
             get_hundred_insights(player_stat, strike_rate=strike_rate, mile_stone="hund")
-        else:
+        elif insight == "fifities":
+            st.header("50 insights")
+            strike_rate = st.slider('strike rate more than ', 100, 250, 120)
+
             get_hundred_insights(df=player_stat, strike_rate=strike_rate, mile_stone="fifty")
+        elif insight == "player vs player":
+            st.header("Player vs Player")
+            c1, c2 = st.columns(2)
+            batters = list(set(list(ball_by_ball['batter'])))
+            bowlers = list(set(list(ball_by_ball['bowler'])))
+            batter_types = c1.selectbox(
+                'batter', (i for i in batters))
+            bowler_types = c2.selectbox(
+                'bowler', (i for i in bowlers))
+
+            get_player_v_player(df=ball_by_ball, batter=batter_types, bowler=bowler_types)

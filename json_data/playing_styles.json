@@ -1,0 +1,2630 @@
+{
+  "b5da6c24": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "eea6b7f1": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "756389bd": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "4a8a2e3b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c3d35165": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "1dc12ab9": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "3576e47e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "9f961c14": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "20a941bb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "ae78bc32": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "4ba44e19": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "bb345e0b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "8ba8195d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c4487b84": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0a476045": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "64c34cd0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c03f1114": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "33a364a6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "93a17209": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "ee7d0c82": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "9fc0ef64": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "e03b66ec": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "5bdcdb72": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c42aaf71": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "ab89348d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "d7c6af50": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "96fd40ae": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "3fca55af": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "fdedb37c": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm wrist-spin"
+  },
+  "b63ab531": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "1c914163": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "6b71e6cf": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "5fa06777": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "dd09ff8e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "98ae73b1": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "5d096f3d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "3dba85c2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6b8eb6e5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "35205dfc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "b8a55852": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "3355b542": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "87e562a9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f62772e5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "fe93fd9d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "495d42a5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "759ac88f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "e0407c01": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "372455c4": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "85ec8e33": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "2e8994e7": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "99d63244": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "709b0bac": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "81049310": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "1558d83b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "91a4a398": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "9d80c5e1": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "d18f9182": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0c94f480": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "dcce6f09": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "27af6414": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "30a2649b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "5bb5a915": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "dcf81436": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "cc1e8c68": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "2b6e6dec": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "508a1ea7": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "9a158001": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "d67d5f00": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "626c5379": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c3a96caf": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c03e2850": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "e938e1bc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "1a0c3177": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "ce820073": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "39f01cdb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "00ea847a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "26e5cabf": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "b61a3e1a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "acee4cc4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "de4b0555": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "29e95537": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "944533a5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "557153ca": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "a4cc73aa": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "bd17b45f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "2e11c706": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "808f425a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "30a45b23": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "d2a989fc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6aed7e79": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "89f64c19": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "740742ef": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "a757b0d8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "dbe50b21": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "70d205c9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "8b5b6769": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "4125d931": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "51a3c5ef": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "a12e1d51": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "462411b3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "db584dad": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "ba607b88": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f088b960": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "aa8d28ae": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "3fb19989": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast"
+  },
+  "f986ca1a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "57ee1fde": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "957532de": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "d9273ee7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "235c2bb6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "6eb146d2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "21d4e29b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "fa2f1dde": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "50c6bc2b": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "04a418e8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "da934ee8": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "7a8bd078": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "1e66c162": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "0a3d54b9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "c6097d68": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "91ffa6c6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "93b4fc78": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "1c17e270": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "28c78fb3": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "5673a3fc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "5d9a1a73": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "abfeb126": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "4180d897": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "b552a935": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "4329fbb5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "0184dc35": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "7c503806": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "8291f939": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "5b040b81": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "bb18be76": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "063b3673": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "3d7e087f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "fe763256": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "05c2ca46": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "bbd41817": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "fa463154": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "d2c2b2d5": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "7d415ea5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f0f628c7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "271f83cd": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "0ebfb1ad": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "752f7486": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "5b8c830e": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "a9fd84fb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "9d430b40": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "45eda7c8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "fb2d1dda": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "0a509d6b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "e86754b2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "8d2c70ad": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm wrist-spin"
+  },
+  "85e0cf10": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "0994d0ae": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "76388dc8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "24d94623": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "2be41edb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "99b75528": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "13c35c9e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "32198ae0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "d2a6c0e6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "73ad96ed": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "890946a0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "c18496e1": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "1c2a64cd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "2e81a32d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0a8fce53": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "d8b2f218": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "725529bc": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "b57f8a9a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "297b26da": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "fd835ab3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "b1451597": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "5f5d3ad4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "d1c94b25": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "66b30f71": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "caa89a48": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "23ac69e6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "ae091d39": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "a2870fb7": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "3c6ffae8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "0a4ebc61": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "45a43fe2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "bb351c23": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "e94915e6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "1abb78f8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "23eeb873": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f834dcfc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "9219eff0": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "2ed569a0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "a818c1be": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "0494fa6e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "85aae393": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "245c97cb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast"
+  },
+  "6834d1f2": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "855a210c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "c16d4035": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "919a3be2": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "fb66ce1f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "e342e5fb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "ded9240e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "6b19d823": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "605b7efa": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "5afd4539": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "86dc8f2e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "b2b50355": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "92aeac25": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "d027ba9f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "7dc35884": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "fe11caa6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "5f547c8b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "871e9faf": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "77255a9e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "e087956b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "90de905a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "5574750c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "641ac5ff": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "99b202b3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "addfb70e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "7daedf2f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "d68e7f48": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "41eb4a4f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c3d1402f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "a1f1829d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "2498e163": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "d84378a4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "ff077124": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "53fe6ee4": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "e32d22f6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "0264c10e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "8b3e9c7c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "af2c687b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "b681e71e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "39a2dfa8": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "9a963804": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "eef2536f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "b4b99816": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c38d3503": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "f5180fe6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast"
+  },
+  "896d78ad": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "56ab442f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "69d03465": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "2e171977": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "e62dd25d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "acdc62f5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "f752db61": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "7050a1e7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "e1d1b294": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm bowler"
+  },
+  "6c6591ab": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "a24be938": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "acc1aeda": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "5b7ab5a9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "b0482a1d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "be24ead0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f1f99156": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "caf69bf7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "e2db2409": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "f6d8a7ab": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "64775749": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "f3171936": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "48fd7349": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "8abdf100": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "48a1d7b7": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "94d7f855": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "a4e37e47": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "2f49c897": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "2c25d4f5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "b8d490fd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "f19ccfad": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "ac5ae4af": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "bd54eef5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "119678fd": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "12b610c2": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "dc9dd038": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "18e6906e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "abb83e27": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "62af8546": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "f29185a1": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "bb965e9a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "ce794613": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "a2f46292": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "b4f5c2d9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "57efa3be": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0dc00542": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "0604ef16": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "b720a5d6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "acd4f5dc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "72861603": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "de8d3876": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "64d43928": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "1399b39c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "4663bd23": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "ad427b5c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "650d5e49": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "4b57e452": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c8179c68": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "45c2196c": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "66cf56a5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "99ed60f8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "b17e2f24": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "7c7d63a2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "7d92277a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "e798611a": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "69be866a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "5d2eea49": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "f9e6e7ef": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "ffe699c0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "f24c6701": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "765a4731": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "0890552f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "b0946605": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "2f9d0389": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "8cf9814c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "7210d461": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "94253925": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "d0513f63": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "0f12f9df": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "c03c6200": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "53f27a35": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "8fd1a8f5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "5bb1a1c4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "25eeb281": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "a45a5e8d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "30e37810": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "c654af19": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "12eddf28": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "8b9704ae": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "3ae3f034": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "fb693839": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "9a0146b3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "469ea22b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "f846de6a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "8e514b4c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "cad00a4d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "2a2e6343": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "14f96089": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "bdadf7da": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "c995d726": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "75224f22": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "5056011d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6f49cc6e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "90edaaa9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "ff1e12a0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "7bf96684": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "d4f9dbd4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "4f629497": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "6afb26d6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "bd77eb62": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "aaa1b522": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "d7b3a420": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "78eb4223": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "2a72fd4f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "86ae8ef2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "bff458c6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c404f58a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast"
+  },
+  "f663ef00": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "7eae4418": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "f48cf4da": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "0c2730df": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "888e32bf": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "d8699ab7": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "b2ae53f5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "c24a2c5d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f4f0fafd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "a76d10ba": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "622cc511": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "034b4b7d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "f3cb53a1": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "facb9086": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "edb3d4f8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "b410bd3d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "3eac9d95": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "d872f52a": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "c69a7b5c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "63bff7f9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "40caa465": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "50758325": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "2af1b6d2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "662c47a6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "18c78b11": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "a84468fe": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "94eac556": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "dec8e038": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "3241e3fd": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "7dcb9bc9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "df064e1a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "244048f6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "aedc3b7c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "cdc6bdba": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "7ca5e05d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f18ba07f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "0fa5042b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "0aadc906": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "5f4e9e8f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "44a89551": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "be869ccf": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast"
+  },
+  "6a26221c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c05edf8e": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "de8cce37": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "a7c226e1": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "e249fdaa": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "46a9bea1": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "db31895a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f708a0bc": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm wrist-spin"
+  },
+  "dfc4d8b5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "6dbcf855": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "cf73ad76": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "ef5da05c": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "26ff4c29": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "7d3720ba": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "e84ac20c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "cfad138c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6ad3a659": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6581d753": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "2049f3a0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "1da489ff": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm wrist-spin"
+  },
+  "4353bba5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "5f26df4f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "541f85c9": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "4d5a1617": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "d92e42f5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "b274dbbd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "0f721006": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "4c5d73db": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "872b03f7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "327b58d3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "c33d8116": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "844e79d1": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "0c9652b0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "b2b23612": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "4ec07775": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "95a2ea61": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "9170ff49": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "5451a2c1": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6821ac10": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "ce4cc4d5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "9868bc75": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "29d72eb2": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "b2570b38": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "287686fd": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "3d8feaf8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "60500956": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "26989d80": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "1a2676c5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "81c08fa3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "d5130a30": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "eade4650": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "2e78f685": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "c740ea83": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "9385de2e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "a97c8ec2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "03806cf8": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "710dd98c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "2461eef2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "2815fe50": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "2f3817ce": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "addbde6c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "350bb1b1": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "ea0cdc12": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "f233bbb4": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "6c19c6e5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "529eb9e0": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "afa7e784": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c7a995d3": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "39f82db3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "d2340a43": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "d718440b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c64c2443": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "0c432afb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "9418198b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "ada15e88": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "d167edd3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "cedc1d9a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "f5f18a18": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "a03bba42": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm wrist-spin"
+  },
+  "f21043a5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "b8527c3d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "df5a6881": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "30df8c66": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "e4a0deae": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "11614d87": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "81c36ee9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast"
+  },
+  "a386e91b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "6c882e9a": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "800d2d97": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "26a85969": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "1647bd37": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "c8f5f961": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": ""
+  },
+  "d014d5ac": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "7f048519": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "0a67aec0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "ba6b2f91": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "23cca426": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "dc4686e6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "c5aef772": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "441c72ae": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "bcce309e": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "4d6d6280": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "75de770f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "16dfcc19": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "d4eef961": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "16605a1b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "dded65e7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "10a91f35": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "cfa4bd2b": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "2cdce1be": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "342d8ade": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "619aa81f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "670709ec": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "3a60e0b5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "9b4935c8": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0af3426f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f10e94c4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "68c56d09": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "1763bc6c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "272d796e": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "4e04666c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "7d3937ed": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "88fccd6c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "b52ffbbd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "26d76ad9": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "8a668774": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "a316d663": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "9601c534": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "4933f499": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "cca50cd6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "33cb3411": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "3edb58fc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "6ef60d3a": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "dce2019b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "a9da7784": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "331ea488": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "4c4fa80b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "af7dadf7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "11df3dc8": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c15e2193": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "864c199e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "dbc50253": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "3a02626a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "6ec424a9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "d1c36f5c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "9a46c4e5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "030f3089": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "1cb14aa4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "f842c2cf": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "b51f72a5": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "b822e99c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "1a156c88": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm wrist-spin"
+  },
+  "b2a79f17": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "16043342": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "5b16a806": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "260fd380": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "d2d4bb0a": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "ff1e68fa": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "e4cdf230": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "983f2f61": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "2e9fdf9b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "44afbf2d": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "ad9c32a2": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "1efb8a28": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "afe3355a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "b56dc5f7": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "890de8cb": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "9ab63e7b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "f4cb4f53": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "ddc0828d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "2728e7e9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "25f7b7d6": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "7bb62642": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "e412cb64": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "bae11797": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "e9c7f0d0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "85b3fab2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "33ffc3dd": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "69762509": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "64a4c383": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "4b4d1957": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "663b5e34": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "9eb1455b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "b69e69ed": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "d3a3e82d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "a3ecf01f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "7c3b3b78": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "b9be6507": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "8ac93ca2": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "ddb00822": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "39086549": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "881a9bdd": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "798cc28e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "c28e9f12": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "77b1aa15": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "faa7365d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "fef92afc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "0d232ffd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "9ff100a6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "b483905d": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "012829ff": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "eaa90ab4": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "a1d053dd": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "14b14cd8": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "7023d182": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "36d33dd0": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "2c76b512": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "ade90de7": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "b970a03f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "f24ca2ba": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "e0351c86": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "94bc776b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "dddca1d6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium-fast"
+  },
+  "39ed0d2f": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "b63e358a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "1be70c88": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "6165bca6": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "fdf7491e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "249d60c9": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "5748e866": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "aa5d8c9e": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "943fd425": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "38f2c66c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "cd8d2859": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "67af6f81": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "b0c772ee": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "249abedf": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "1ee08e9a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "d3611425": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast-medium"
+  },
+  "fdcb08c2": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "e186f49c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "19b9f399": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "ee3dfa89": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak"
+  },
+  "c9d33ef5": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  },
+  "d7a57f75": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "ed5a5510": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak googly"
+  },
+  "0ed0cdbf": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "c695b423": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "64839cb3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "531f0278": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "8d92a2c3": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast"
+  },
+  "91b9300b": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "27e71d47": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "2bb09eb2": {
+    "batting_style": "",
+    "bowling_style": ""
+  },
+  "7c390b03": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm medium"
+  },
+  "611926bc": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "2503e881": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "798934ea": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "378daa89": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0164b064": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium-fast"
+  },
+  "2eeb4370": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "62e07f92": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": ""
+  },
+  "c9cac448": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "9948e262": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Legbreak"
+  },
+  "6042bf26": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "21ac077a": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast-medium"
+  },
+  "fb24e76c": {
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium"
+  },
+  "0bf15e52": {
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox"
+  }
+}
