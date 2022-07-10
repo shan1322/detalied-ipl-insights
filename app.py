@@ -30,11 +30,11 @@ def get_year_wise_data(df):
     fig = simple_bar_plot(data=agg_data, x='year', y='score_inn1', text="score_inn1",
                           color_column="year")
     st.header("Scores batting First")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig)
     fig = simple_bar_plot(data=agg_data, x='year', y='score_inn2', text="score_inn2", color_column="year")
 
     st.header("Scores batting Second")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig)
     bat1_df = df[df['who_won'] == 'bat1'].groupby("year").agg({'who_won': "count"}).rename(
         columns={"who_won": "bat_first"}).reset_index()
     bat2_df = df[df['who_won'] == 'bat2'].groupby("year").agg({'who_won': "count"}).rename(
@@ -43,7 +43,7 @@ def get_year_wise_data(df):
     fig = split_bar_plot(title_1='matches won batting second', title_2='matches won batting first', x=bat_df["year"],
                          y1=bat_df["bat_first"], y2=bat_df["bat_second"])
     st.header("matches won batting first and matches one batting second year wise")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig)
 
 
 def get_stadium_stats(df, stadium):
@@ -52,7 +52,7 @@ def get_stadium_stats(df, stadium):
     fig = split_bar_plot(title_1="avg innings1 score ", title_2="avg innings2 score ", x=agg_data['year'],
                          y1=agg_data['score_inn1'], y2=agg_data['score_inn2'])
     st.header("stadium")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig)
 
 
 def get_boundary_data(df):
@@ -61,10 +61,10 @@ def get_boundary_data(df):
     agg_data = df.groupby('year').agg({'total_sixes': "sum", "total_fours": "sum"}).reset_index()
     fig = simple_line(data=agg_data, x="year", y="total_sixes", title="sixes")
     st.header("sixes")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig)
     fig = simple_line(data=agg_data, x="year", y="total_fours", title="fours")
     st.header("fours")
-    st.plotly_chart(fig, use_container_width=False)
+    st.plotly_chart(fig)
 
 
 def get_player_stats(df, min_matches=0, min_strike_rate=0, min_average=0, max_eco=0):
