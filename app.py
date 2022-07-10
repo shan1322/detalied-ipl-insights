@@ -310,7 +310,7 @@ def get_bolwing_details(df, bowling_df, player):
 
 def get_player_v_player(df, batter, bowler):
     df = df[(df['batter'] == batter) & (df['bowler'] == bowler)]
-    if len(df)==0:
+    if len(df) == 0:
         st.write("Never Faced each other in IPL")
     else:
         runs = df['total_run'].sum()
@@ -318,11 +318,13 @@ def get_player_v_player(df, batter, bowler):
         dot_ball_percentage = round((dot_ball / len(df)) * 100, 2)
         balls = len(df)
         strike_rate = round((runs / balls) * 100, 2)
-        c1, c2 = st.columns(2)
+        out = len((df[df['player_out'] == batter]))
+        c1, c2, c3 = st.columns(3)
         c1.metric("runs", runs)
         c2.metric("balls", balls)
-        c1.metric("strike rate", strike_rate)
-        c2.metric("dot ball percentage", dot_ball)
+        c3.metric("strike rate", strike_rate)
+        c1.metric("dot ball percentage", dot_ball_percentage)
+        c2.metric("out", out)
 
 
 st.sidebar.image("images/ipl_logo.cms")
@@ -355,7 +357,6 @@ elif option in ["player stats", "insights"]:
         bowling_df = pd.read_parquet("tabular_data/agg_bowling.parquet")
     except Exception as e:
         print(e)
-    ball_by_ball = pd.read_parquet("tabular_data/all_ball_by_ball.parquet")
 
     if option == "player stats":
         player_stat_option = st.sidebar.selectbox(
@@ -377,6 +378,7 @@ elif option in ["player stats", "insights"]:
                 economy_less_more_than = st.slider('economy rate less than', 0.0, 12.5, 8.0)
                 get_player_stats(max_eco=economy_less_more_than, df=player_stat, min_matches=min_matches)
         elif player_stat_option == "detail":
+            ball_by_ball = pd.read_parquet("tabular_data/all_ball_by_ball.parquet")
             player_name = st.selectbox("players", ((i) for i in sorted(list(set(player_stat['name'])))))
             if which_stat == "batting":
                 get_batting_details(df=player_stat, player=player_name, batting_df=batting_df)
@@ -404,6 +406,7 @@ elif option in ["player stats", "insights"]:
         elif insight == "player vs player":
             st.header("Player vs Player")
             c1, c2 = st.columns(2)
+            ball_by_ball = pd.read_parquet("tabular_data/all_ball_by_ball.parquet")
             batters = list(set(list(ball_by_ball['batter'])))
             bowlers = list(set(list(ball_by_ball['bowler'])))
             batter_types = c1.selectbox(
